@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet icon" href="parrot.ico">
+	<title>Positivo - Negativo</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<h1>PosNeg</h1>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Por favor Ingresa un Numero</label>
+					<input type="email" class="form-control" id="numero1" placeholder="0">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Por favor Ingresa otro Numero</label>
+					<input class="form-control" id="numero2" placeholder="0">
+				</div>
+				<button onclick="calcular()" class="btn btn-default">Calcular</button>
+			</div>
+			<div class="col-md-3 text-center">
+				<h4 >Mensaje</h4>
+				<div id="salida" style="font-size:30px;" class="text-center">--</div>
+				<div id="mensajes" style="font-size:20px;" class="text-center"></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
