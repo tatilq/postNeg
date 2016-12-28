@@ -28,7 +28,6 @@ function calcular()
 	else 
 	{
 		salida.innerHTML = "1";
-		document.getElementById("mensajes").innerHTML = '<div class="alert alert-danger">Uno positivo otro negativo</div>';
 	}
 
 
