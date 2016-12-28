@@ -36,7 +36,7 @@ header{
 .diff input{ width: 50%;margin: 0 auto;text-align: center; }
 .diff label{ font-size: 18px; margin-bottom: 15px; }
 .diff img{width: 30%;}
-#salida{ color: white; width: 60%; margin: 0 auto; background: rgba(60,80,80,0.5); border:2px solid black; }
+#salida{ color: white; width: 60%; margin: 0 auto; background: rgba(60,80,80,0.9); border:2px solid black; }
 #mensajes{width: 80%; margin: 0 auto;}
 
 .alert{background-color: green;}

@@ -27,6 +27,7 @@ function calcular()
 	}
 	else 
 	{
+		document.getElementById("mensajes").innerHTML = '<div class="alert alert-danger">Uno positivo u otro negativo ó No ingresaste datos</div>';
 		salida.innerHTML = "1";
 	}
 
