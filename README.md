@@ -1,4 +1,4 @@
-#Ejercicio Parrot Trouble
+#Ejercicio Positivo y Negativo
 
 *Inicio: Positivo Negativo*
 

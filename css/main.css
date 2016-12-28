@@ -39,7 +39,7 @@ header{
 #salida{ color: white; width: 60%; margin: 0 auto; background: rgba(60,80,80,0.9); border:2px solid black; }
 #mensajes{width: 80%; margin: 0 auto;}
 
-.alert{background-color: green;}
+.alert{background-color: pink;}
 .alert p{color: white;}
 .alert_num{background-color: red;}
 .alert_num p{color: white;}
