@@ -29,7 +29,7 @@
 			<div class="container-fluid ">
 				<div class="row">
      				<div class="frase option animated tada text-center"> 
-						<h2  ><strong>¿Deseas saber si un numero es positivo?</strong></h2>
+						<h2  ><strong>¿Deseas saber si un numero es positivo ó Negativo?</strong></h2>
 						<p style="font-size:20px;"><em>*Completa el siguiente formulario y lo averiguaras.</em></p>
 					</div>
      			</div>
@@ -39,11 +39,11 @@
 						<div class="col-md-5 col-md-offset-2">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Por favor Ingresa un Numero</label>
-								<input type="email" class="form-control" id="numero1" placeholder="0">
+								<input type="email" class="form-control" id="numero1" placeholder="0" onkeyDown="verifica(event)">
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1">Por favor Ingresa otro Numero</label>
-								<input class="form-control" id="numero2" placeholder="0">
+								<input class="form-control" id="numero2" placeholder="0" onkeyDown="verifica(event)">
 							</div>
 							<button onclick="calcular()" class="btn btn_menu">Calcular</button>
 						</div>
